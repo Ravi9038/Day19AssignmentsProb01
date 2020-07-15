@@ -1,8 +1,17 @@
 
-class masterFile{
+public class Day19EmpWage{
 
 	public static void main(String [] args){
 
-		System.out.println("Welcome to Employee wage Computation");
+		int randVal = (int) (Math.random()* 2)+1;
+
+		if (randVal == 1){
+
+			System.out.println("Employee is present");
+		}else{
+
+			System.out.println("Employee is Absent");
+		}
 	}
 }
+
